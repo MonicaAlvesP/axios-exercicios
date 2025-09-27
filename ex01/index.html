@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diretório de Pessoas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Diretório de Pessoas</h1>
+        <p>Explore nossa base de dados com informações detalhadas</p>
+      </header>
+
+      <div class="stats-grid" id="stats-grid"></div>
+
+      <div class="controls">
+        <div class="info">
+          <span id="info-text">Carregando...</span>
+        </div>
+        <div class="pagination">
+          <button id="prev-btn" disabled>← Anterior</button>
+          <span id="page-info">Página 1 de 1</span>
+          <button id="next-btn" disabled>Próxima →</button>
+        </div>
+      </div>
+
+      <div id="resultado" class="cards-grid"></div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+
+</html>
